@@ -1,0 +1,30 @@
+{
+    "cognito": {
+      "poolId": "us-east-1:4ddf4e77-d4ed-4bb7-8f2f-449fdda14824",
+      "appUserPoolClientId": "727umf381vhdhorp3qh0dvi72f",
+      "appUserPoolName": "us-east-1_tz8P8iZcb",
+      "appDomainName": "lexkwebkuikidentitypoolconfigkjazfpzssdfhe238359442180.auth.us-east-1.amazoncognito.com",
+      "appUserPoolIdentityProvider": ""
+    },
+    "connect": {
+      "contactFlowId" : "",
+      "instanceId" : "",
+      "apiGatewayEndpoint" : ""
+    },
+    "lex": {
+      "botName": "QnABot_BotuU",
+      "initialText": "This is from AWS TEST CONFING",
+      "initialSpeechInstruction": "Say 'Order Flowers' to get started."
+    },
+    "polly": {
+      "voiceId": "Salli"
+    },
+    "ui": {
+      "parentOrigin": "",
+      "pageTitle": "AWS TEST",
+      "toolbarTitle": "AWS TEST BOT"
+    },
+    "recorder": {
+      "preset": "speech_recognition"
+    }
+  }

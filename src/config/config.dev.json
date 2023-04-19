@@ -1,0 +1,65 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:d105af2f-d4ce-4f74-833d-a8e1f4a856ad",
+    "appUserPoolClientId": "us-east-1_4ql6W4H6E",
+    "appUserPoolName": "UserPool-lex-web-ui",
+    "appDomainName": "lexkwebkuikidentitypoolconfigkkivfwfmfeqrb238847558285",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1"
+  },
+  "lex": {
+    "v2BotId": "HUVX7TQ12Y",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_US",
+    "botName": "Danny_test",
+    "botAlias": "$LATEST",
+    "initialText": "Say 'Hello' to get started.",
+    "initialSpeechInstruction": "Say 'Hello' to get started.",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1"
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "Gracious Bot",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": true,
+    "forceLogin": true,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": true,
+    "saveHistory": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false,
+    "enableLiveChat": false
+  },
+  "connect": {
+    "contactFlowId" : "",
+    "instanceId" : "",
+    "apiGatewayEndpoint" : "",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": 60
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
